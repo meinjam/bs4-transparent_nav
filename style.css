@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&display=swap');
+
+/* html{
+  scroll-behavior: smooth;
+} */
+
+body {
+  font-family: 'Josefin Sans', sans-serif !important;
+  /* scroll-behavior: smooth; */
+}
+
+.navbar {
+  transition: all 300ms linear;
+}
+
+.aaa{
+  padding-top: 30px;
+}
+
+nav h1 {
+  color: #f64c72;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+nav ul li a {
+  color: #fff !important;
+}
+
+.navbar-nav li a {
+  font-size: 1.25rem;
+}
+
+#showcase {
+  background: linear-gradient(to right bottom,
+      rgba(47, 47, 162, 0.9),
+      rgba(47, 47, 162, 0.9)),
+    url('4.jpg') no-repeat center center/cover fixed;
+  min-height: 100vh;
+}
+
+.navbar-light .navbar-toggler {
+  border: none !important;
+  /* border: 1px solid #f64c72;
+    border-radius: 0px; */
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+    background-color: rgba(246, 76, 114, 0.6);
+  }
+
+  .navbar-nav li a {
+    margin: 3rem !important;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  nav h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.white-nav-top {
+  background: #fff;
+  box-shadow: 0 8px 6px -9px #999;
+  z-index: 2;
+}
+
+.white-nav-top ul li a {
+  color: #212226 !important;
+}
+
+.white-nav-top ul li a:hover,
+.white-nav-top ul li a:focus {
+  color: #f64c72 !important;
+}
+
+.white-nav-top ul li .active {
+  color: #f64c72 !important;
+}
+
+.navbar ul li .active {
+  color: #f64c72 !important;
+}
